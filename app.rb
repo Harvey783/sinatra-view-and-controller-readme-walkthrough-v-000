@@ -7,6 +7,7 @@ class App < Sinatra::Base
 
   post '/reverse' do
     puts params
+    binding.pry
     erb :reversed
   end
 
